@@ -26,6 +26,10 @@ msavin:mongol
 
 ### Clone and rename
 
+```
+git clone git@github.com:webtempest/meteor-boilerplate.git projectname
+cd projectname
+```
 
 ### Pick javascript langauge (optional)
 
