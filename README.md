@@ -45,7 +45,7 @@ meteor add iron:router
 
 #### [Flow Router](https://github.com/kadirahq/flow-router)
 
-Newer router. Does less than Iron Router, but claims to be faster. 
+Newer router. Does less than Iron Router, but claims to be faster.
 
 ```
 meteor add kadira:flow-router
@@ -122,6 +122,18 @@ There are files dotted around in certain folders to help you get started. Mostly
 
 Folder/file naming and patterns used are opinionated and open for debate. Please create issues or PR's for suggested new patterns.
 
+Templates are named like this:
+
+`items/item.html` => `itemsItem`
+`items/new_item.html` => `itemsNewItem`
+`layouts/public.html => `layoutsPublic`
+
 ### Coffeescript vs Javascript
 
 I've used both professionally and in my opinion Coffeescript is a hands down winner - it seems to make coding Javascript quicker and more enjoyable with no apparent downsides. I wrote [a blog post](http://www.webtempest.com/learn-coffeescript-fast) to help people learn it quickly (only takes about 15-30 mins to learn). Well worth it I promise.
+
+### Why not use packages?
+
+[Telescope](https://github.com/TelescopeJS/Telescope) (a large and successful open source Meteor app) doesn't actually have any application code. Rather the creators have split the project into packages.
+
+Packages offer better modularity and the ability to specify dependencies. In larger projects I would seriously consider using this pattern.
