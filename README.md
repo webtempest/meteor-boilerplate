@@ -124,4 +124,4 @@ Folder/file naming and patterns used are opinionated and open for debate. Please
 
 ### Coffeescript vs Javascript
 
-I've used both professionally and Coffeescript is a hands down winner - makes coding quicker and more enjoyable with no real downsides. I wrote [a blog post](http://www.webtempest.com/learn-coffeescript-fast) to help people learn it quickly (only takes about 15-30 mins to learn). Well worth it I promise.
+I've used both professionally and in my opinion Coffeescript is a hands down winner - it seems to make coding Javascript quicker and more enjoyable with no apparent downsides. I wrote [a blog post](http://www.webtempest.com/learn-coffeescript-fast) to help people learn it quickly (only takes about 15-30 mins to learn). Well worth it I promise.
