@@ -48,7 +48,7 @@ meteor add iron:router
 Newer router. Does less than Iron Router, but claims to be faster.
 
 ```
-meteor add kadira:flow-router
+meteor add kadira:flow-router kadira:blaze-layout
 ```
 
 *Note*: If you use this then delete my `both/routes.coffee` sample file, as it uses Iron Router.
@@ -126,7 +126,7 @@ Templates are named like this:
 
 `items/item.html` => `itemsItem`
 `items/new_item.html` => `itemsNewItem`
-`layouts/public.html => `layoutsPublic`
+`layouts/public.html` => `layoutsPublic`
 
 ### Coffeescript vs Javascript
 
