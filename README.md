@@ -31,6 +31,24 @@ git clone git@github.com:webtempest/meteor-boilerplate.git projectname
 cd projectname
 ```
 
+### Pick router
+
+#### Iron Router
+
+Battle tested router. Most tutorials use this. Support for it has waned lately (Github issues piling up). But I still use it as it works and covers my needs.
+
+```
+meteor add iron:router
+```
+
+#### Flow Router
+
+Newer router. Does less than Iron Router, but claims to be faster. 
+
+```
+meteor add kadira:flow-router
+```
+
 ### Pick javascript langauge (optional)
 
 #### Coffeescript (`.coffee`)
@@ -57,8 +75,7 @@ meteor add fourseven:scss
 meteor add less
 ```
 
-
-### Pick stylesheets language (optinal)
+### Pick style (optional)
 
 #### Bootstrap
 
