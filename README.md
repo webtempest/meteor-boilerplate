@@ -31,9 +31,9 @@ git clone git@github.com:webtempest/meteor-boilerplate.git projectname
 cd projectname
 ```
 
-### Pick router
+### Pick a router
 
-#### Iron Router
+#### [Iron Router](https://github.com/iron-meteor/iron-router)
 
 Battle tested router. Most tutorials use this. Support for it has waned lately (Github issues piling up). But I still use it as it works and covers my needs.
 
@@ -41,7 +41,7 @@ Battle tested router. Most tutorials use this. Support for it has waned lately (
 meteor add iron:router
 ```
 
-#### Flow Router
+#### [Flow Router](https://github.com/kadirahq/flow-router)
 
 Newer router. Does less than Iron Router, but claims to be faster. 
 
@@ -49,7 +49,7 @@ Newer router. Does less than Iron Router, but claims to be faster.
 meteor add kadira:flow-router
 ```
 
-### Pick javascript langauge (optional)
+### Pick a Javascript langauge (optional)
 
 #### Coffeescript (`.coffee`)
 
