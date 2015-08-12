@@ -1,0 +1,27 @@
+{
+  "public": {
+    "what_is_this": "Public stuff is available on client and server"
+
+    "service": {
+      "key": "access me in client or server with Meteor.settings.public.service.key;",
+    },
+
+    "features": {
+      "stripe": false
+    }
+  },
+
+  "private": {
+
+    "what_is_this": "Private stuff is available only on server"
+
+    "stripe": {
+      "secretKey": ""
+    },
+
+    "facebook": {
+      "appId": "",
+      "appSecret": ""
+    }
+  }
+}

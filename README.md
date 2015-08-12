@@ -2,6 +2,8 @@
 
 For starting new projects. I tried to include files that utilize the provided packages as a reference on how to use them. They are in Coffeescript at the moment. If you like Javascript you can still get the gist of how I'm using them - just ignore/delete them as they are not required.
 
+[Accompanying cheat sheet](http://www.webtempest.com/meteor-js-cheatsheet)
+
 ## Packages
 
 ```
