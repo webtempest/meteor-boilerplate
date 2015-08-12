@@ -20,7 +20,7 @@ helpers =
     tpl.editing.set(false)
     helpers.toggle.call(@, e, tpl)
 
-Template.text.events
+Template.itemsItem.events
   'click .js-text-item': (e, tpl) ->
     tpl.oldText.set(tpl.$('.textContent').text())
     tpl.editing.set(true)
@@ -37,7 +37,7 @@ Template.text.events
     else if e.type == "keyup" and e.which == 13 or e.type == 'focusout'
       helpers.save.call(@, e, tpl)
 
-Template.text.onCreated ->
+Template.itemsItem.onCreated ->
 
   # Use template instance level reactive vars instead of Session, which is global
   # @ (which is `this`) is the template instance

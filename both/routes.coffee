@@ -9,7 +9,7 @@ Router.route '/sign-out', ->
 # But you'll probably delete them anyway
 
 @PublicController = RouteController.extend
-  layoutTemplate: 'publicLayout'
+  layoutTemplate: 'layoutsPublic'
 
 @SignInController = PublicController.extend
   action: ->

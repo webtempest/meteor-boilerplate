@@ -9,7 +9,7 @@ Items.helpers
 
   # If an Item has_many SubItems you can retrieve them with this helper
   subItems: ->
-    SubItems.find({itemId: @_id).fetch()
+    SubItems.find(itemId: @_id).fetch()
 
   # Shows how you can reference other helpers within a helper
   markAsChanged: ->
