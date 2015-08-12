@@ -35,18 +35,13 @@ cd projectname
 
 #### Coffeescript (`.coffee`)
 
-This is actually in there already so you don't need to add this. But in case you want to know.
-
-```
-meteor add coffeescript
-```
+I've included Coffeescript by default.
 
 #### ES6 (`es6.js`, `.es6` or `.jsx`)
 
 ```
 meteor add grigio:babel
 ```
-
 
 ### Pick stylesheet language (optional)
 
