@@ -49,6 +49,8 @@ Newer router. Does less than Iron Router, but claims to be faster.
 meteor add kadira:flow-router
 ```
 
+*Note*: If you use this then delete my `both/routes.coffee` sample file, as it uses Iron Router.
+
 ### Pick a Javascript langauge (optional)
 
 #### Coffeescript (`.coffee`)
@@ -113,10 +115,6 @@ meteor add mplatts:meteor-loader
 There are files dotted around in certain folders to help you get started. Mostly you can just keep them there and use them as a reference. Though you'll probably want to change `/both/routes`.
 
 ## Decisions
-
-### Iron Router vs Flow Router
-
-I use Iron Router because I like Meteoric, which needs Iron Router. You can switch for Flow Router if you aren't using Meteoric though.
 
 ### Folder/files
 

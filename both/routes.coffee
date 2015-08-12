@@ -1,3 +1,6 @@
+# This file is only relevant if you use Iron Router
+# Flow Router users please delete this
+
 Router.route '/sign-in', name: 'signIn'
 Router.route '/sign-out', ->
   AccountsTemplates.logout()
