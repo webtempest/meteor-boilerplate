@@ -13,6 +13,6 @@ Package.onUse(function(api) {
   api.addFiles([
     'nprogress.js',
     'nprogress.css',
-    'meteoric-loader.coffee'
+    'meteor-loader.coffee'
   ], 'client');
 });

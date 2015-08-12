@@ -58,7 +58,7 @@ meteor add less
 ```
 
 
-### Pick style
+### Pick stylesheets language (optinal)
 
 #### Bootstrap
 
@@ -83,9 +83,9 @@ meteor add useraccounts:semantic-ui
 
 ### If you want a loader
 
-This is a local package. It basically is a copy of [meteor-auto-nprogress](https://github.com/settinghead/meteor-auto-nprogress/blob/master/auto-nprogress.js), but differs in that I modified nprogress a bit to make is compatible with Meteoric ([my PR for nprogress](https://github.com/rstacruz/nprogress/pull/128/files)).
+This is a local package (located in the `/packages` folder). It basically is a copy of [meteor-auto-nprogress](https://github.com/settinghead/meteor-auto-nprogress/blob/master/auto-nprogress.js), but differs in that I modified the nprogress JS lib a bit to make it compatible with Meteoric ([my PR for nprogress](https://github.com/rstacruz/nprogress/pull/128/files)).
 
-Basically shows a progress bar on the top of the screen like YouTube while subscriptions load. Loader used: http://ricostacruz.com/nprogress
+Basically this shows a progress bar on the top of the screen like YouTube while subscriptions load so you don't have to worry about spinners. Loader used: http://ricostacruz.com/nprogress
 
 ```
 meteor add mplatts:meteor-loader
