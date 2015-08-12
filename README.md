@@ -41,6 +41,7 @@ Battle tested router. Most tutorials use this. Support for it has waned lately (
 
 ```
 meteor add iron:router
+meteor add useraccounts:iron-routing
 ```
 
 #### [Flow Router](https://github.com/kadirahq/flow-router)
@@ -49,6 +50,7 @@ Newer router. Does less than Iron Router, but claims to be faster.
 
 ```
 meteor add kadira:flow-router kadira:blaze-layout
+meteor add useraccounts:flow-routing
 ```
 
 *Note*: If you use this then delete my `both/routes.coffee` sample file, as it uses Iron Router.
