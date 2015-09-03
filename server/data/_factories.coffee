@@ -25,7 +25,7 @@ Factory.define 'user', Meteor.users,
   createdAt: new Date()
   isDummyData: true
 
-Factory.define 'item', Item,
+Factory.define 'item', Items,
   content: -> faker.lorem.paragraphs(_.random(1,3))
   createdAt: new Date()
   isDummyData: true

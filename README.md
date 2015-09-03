@@ -22,7 +22,17 @@ alanning:roles
 dburles:factory
 digilord:faker
 msavin:mongol
+service-configuration
 ```
+
+## Features
+
+- User schema setup
+- Example file structure for collections
+- Facebook sign up captures name, email and profile picture URL
+- loading bar when websockets is active (like Youtube load bar up the top of the screen)
+- `formattedDate` helper for date formatting
+
 
 ## Usage
 
@@ -63,22 +73,10 @@ I've included Coffeescript by default.
 
 #### ES6 (`es6.js`, `.es6` or `.jsx`)
 
+Comes by default if you upgrade to Meteor 1.2 (although without modules).
+
 ```
 meteor add grigio:babel
-```
-
-### Pick stylesheet language (optional)
-
-#### Sass
-
-```
-meteor add fourseven:scss
-```
-
-#### Less
-
-```
-meteor add less
 ```
 
 ### Pick style (optional)
@@ -91,6 +89,8 @@ meteor add useraccounts:bootstrap
 ```
 
 #### Semantic UI
+
+Requires further setup - see [docs](https://atmospherejs.com/semantic/ui)
 
 ```
 meteor add semantic:ui flemay:less-autoprefixer
@@ -113,6 +113,10 @@ Basically this shows a progress bar on the top of the screen like YouTube while 
 ```
 meteor add mplatts:meteor-loader
 ```
+
+### Adding Facebook sign in
+
+Get your app ID and secret and put it in your `settings.json` (see `settings-example.json`). If you look in `server/setup/facebook.coffee` I create the Facebook service provider and make it so name, email and profile picture is stored in the user's profile (if they sign up via Facebook).
 
 ### Remove helper files
 

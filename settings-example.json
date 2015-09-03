@@ -23,5 +23,10 @@
       "appId": "",
       "appSecret": ""
     }
+  },
+
+  "kadira": {
+    "appId": "",
+    "appSecret": ""
   }
 }

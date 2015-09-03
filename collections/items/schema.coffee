@@ -12,6 +12,22 @@ Items.attachSchema new SimpleSchema
     allowedValues: ['typeOne', 'typeTwo']
     defaultValue: 'typeOne'
     index: 1
+  createdAt:
+    type: Date
+    autoValue: ->
+      if @isInsert
+        new Date
+      else if @isUpsert
+        $setOnInsert: new Date
+      else
+        @unset()
+  updatedAt:
+    type: Date
+    autoValue: ->
+      if @isUpdate
+        new Date()
+    denyInsert: true
+    optional: true
   isDummyData:
     type: Boolean
     defaultValue: false

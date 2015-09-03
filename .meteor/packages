@@ -14,8 +14,16 @@ momentjs:moment
 reywood:publish-composite
 dburles:collection-helpers
 reactive-var
-zimme:iron-router-active
+reactive-dict
+zimme:active-route
 alanning:roles
 dburles:factory
 digilord:faker
 msavin:mongol
+service-configuration
+arillo:flow-router-helpers
+kadira:flow-router
+kadira:blaze-layout
+useraccounts:flow-routing
+accounts-facebook
+mplatts:bootstrap

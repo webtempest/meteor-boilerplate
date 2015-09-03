@@ -3,6 +3,10 @@ profileSchema = new SimpleSchema
     type: String
     optional: true
 
+  email:
+    type: String
+    optional: true
+
   profilePictureUrl:
     type: String
     optional: true
