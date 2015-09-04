@@ -4,3 +4,4 @@
 dump
 settings.json
 .idea/
+.tags*

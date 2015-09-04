@@ -1,0 +1,22 @@
+h1.logo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 72px;
+}
+
+.navbar-static-top {
+  background-color: $brand1;
+
+  a.navbar-brand {
+    color: $brand3;
+  }
+
+  a.nav-link {
+    color: $brand4;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  color: $brand3;
+  border-radius: 0;
+}
