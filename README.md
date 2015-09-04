@@ -9,30 +9,45 @@ For starting new projects. I tried to include files that utilize the provided pa
 ```
 meteor-platform
 coffeescript
-iron:router
+fourseven:scss
 aldeed:collection2
 matb33:collection-hooks
 accounts-password
+accounts-facebook
 momentjs:moment
 reywood:publish-composite
 dburles:collection-helpers
 reactive-var
+reactive-dict
 zimme:active-route
 alanning:roles
 dburles:factory
 digilord:faker
 msavin:mongol
 service-configuration
+arillo:flow-router-helpers
+kadira:flow-router
+kadira:blaze-layout
+useraccounts:flow-routing
+useraccounts:bootstrap
+mplatts:accounts-ui-bootstrap-4
+meteorhacks:npm
+npm-container
+mplatts:event-emitter2
 ```
 
 ## Features
 
+- Flow router installed
+- Bootstrap 4 manually installed (remove client/lib/bootstrap if you don't want it)
+- custom accounts UI works with Bootstrap 4
+- eventEmitter2 installed on server - called E (E.emit('event', val))
 - User schema setup
 - Example file structure for collections
 - Facebook sign up captures name, email and profile picture URL
 - loading bar when websockets is active (like Youtube load bar up the top of the screen)
 - `formattedDate` helper for date formatting
-
+- loading bar like Youtube's is shown up top when DDP on the go
 
 ## Usage
 
@@ -41,77 +56,6 @@ service-configuration
 ```
 git clone git@github.com:webtempest/meteor-boilerplate.git projectname
 cd projectname
-```
-
-### Pick a router
-
-#### [Iron Router](https://github.com/iron-meteor/iron-router)
-
-Battle tested router. Most tutorials use this. Support for it has waned lately (Github issues piling up). But I still use it as it works and covers my needs.
-
-```
-meteor add iron:router
-meteor add useraccounts:iron-routing
-```
-
-#### [Flow Router](https://github.com/kadirahq/flow-router)
-
-Newer router. Does less than Iron Router, but claims to be faster.
-
-```
-meteor add kadira:flow-router kadira:blaze-layout
-meteor add useraccounts:flow-routing
-```
-
-*Note*: If you use this then delete my `both/routes.coffee` sample file, as it uses Iron Router.
-
-### Pick a Javascript langauge (optional)
-
-#### Coffeescript (`.coffee`)
-
-I've included Coffeescript by default.
-
-#### ES6 (`es6.js`, `.es6` or `.jsx`)
-
-Comes by default if you upgrade to Meteor 1.2 (although without modules).
-
-```
-meteor add grigio:babel
-```
-
-### Pick style (optional)
-
-#### Bootstrap
-
-```
-meteor add twbs:bootstrap
-meteor add useraccounts:bootstrap
-```
-
-#### Semantic UI
-
-Requires further setup - see [docs](https://atmospherejs.com/semantic/ui)
-
-```
-meteor add semantic:ui flemay:less-autoprefixer
-meteor add useraccounts:semantic-ui
-```
-
-#### Materialize
-
-```
-meteor add materialize:materialize
-meteor add useraccounts:semantic-ui
-```
-
-### If you want a loader
-
-This is a local package (located in the `/packages` folder). It basically is a copy of [meteor-auto-nprogress](https://github.com/settinghead/meteor-auto-nprogress/blob/master/auto-nprogress.js), but differs in that I modified the nprogress JS lib a bit to make it compatible with Meteoric ([my PR for nprogress](https://github.com/rstacruz/nprogress/pull/128/files)).
-
-Basically this shows a progress bar on the top of the screen like YouTube while subscriptions load so you don't have to worry about spinners. Loader used: http://ricostacruz.com/nprogress
-
-```
-meteor add mplatts:meteor-loader
 ```
 
 ### Adding Facebook sign in

@@ -1,0 +1,17 @@
+<template name="layoutsPublicNav">
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <a class="navbar-brand" href="/">Project name</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/protected">Protected area</a>
+      </li>
+    </ul>
+
+    <ul class="nav nav-pills" style="float: right">
+      {{> loginButtons }}
+    </ul>
+  </nav>
+</template>

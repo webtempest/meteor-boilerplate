@@ -1,12 +1,16 @@
-FlowRouter.route '/',
-  name: 'home'
-  action: ->
-    BlazeLayout.render("layoutsPublic", {content: "publicHome"})
+new FlowWrapper
+  loadingTemplate: 'layoutsPublicLoading'
+  accessDeniedTemplate: 'publicAccessDenied'
+  routes:
+    "/": "home=layoutsPublic>publicHome"
+    "/protected": "protected!=layoutsPublic>publicProtected"
 
 FlowRouter.route '/sign-out',
   name: 'signOut'
   action: ->
     Meteor.logout()
     FlowRouter.redirect '/'
-    
-#FlowRouter.triggers.enter([AccountsTemplates.ensureSignedIn])
+
+FlowRouter.notFound =
+  action: ->
+    BlazeLayout.render('layoutsPublic', {content: 'publicNotFound'})

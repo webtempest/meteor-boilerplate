@@ -9,12 +9,3 @@ Meteor.startup ->
         profilePictureUrl: ""
 
     Roles.addUsersToRoles(myId, 'admin')
-
-  if Items.find().count() == 0
-    userId = Meteor.users.findOne()._id
-    item =
-      name: 'Sample'
-      content: 'Sample content'
-      userId: userId
-
-    Items.insert(item)

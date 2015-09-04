@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mplatts:bootstrap',
+  name: 'mplatts:event-emitter2',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -10,8 +10,13 @@ Package.describe({
   documentation: 'README.md'
 });
 
+Npm.depends({
+  eventemitter2: "0.4.14"
+});
+
 Package.onUse(function(api) {
-  api.versionsFrom('1.2-rc.7');
-  api.use('fourseven:scss');
-  api.addFiles('scss/bootstrap-flex.scss');
+  api.versionsFrom('1.1.0.3');
+  api.use('coffeescript');
+  api.addFiles('init.js', 'server');
+  api.export('E', 'server');
 });

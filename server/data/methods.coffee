@@ -5,9 +5,7 @@
 if process.env.NODE_ENV == "development"
   Meteor.methods
 
-    # In browser console: `Meteor.call('addItems', 10)` => creates 10 random users with an item each
-    addItems: (amount) ->
+    # In browser console: `Meteor.call('addUsers', 10)` => creates 10 random users 
+    addUsers: (amount) ->
       for i in [1..amount]
-        user = Factory.create('user')
-        Roles.addUsersToRoles user._id, 'standardUser'
-        Factory.create('item', {userId: user._id})
+        Factory.create('user')

@@ -6,10 +6,11 @@
 
 meteor-platform
 coffeescript
-fourseven:scss@2.0.0
+fourseven:scss
 aldeed:collection2
 matb33:collection-hooks
 accounts-password
+accounts-facebook
 momentjs:moment
 reywood:publish-composite
 dburles:collection-helpers
@@ -24,6 +25,9 @@ service-configuration
 arillo:flow-router-helpers
 kadira:flow-router
 kadira:blaze-layout
-useraccounts:flow-routing
-accounts-facebook
-mplatts:bootstrap
+meteorhacks:npm
+npm-container
+mplatts:event-emitter2
+mplatts:meteor-loader
+mplatts:accounts-ui-bootstrap-4
+webtempest:flow-wrapper
