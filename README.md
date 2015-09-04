@@ -1,5 +1,7 @@
 # Meteor Boilerplate
 
+![img](https://cloud.githubusercontent.com/assets/184383/9678528/9f80b4ae-5329-11e5-88e0-be9d8f169360.png)
+
 For starting new projects. I tried to include files that utilize the provided packages as a reference on how to use them. They are in Coffeescript at the moment. If you like Javascript you can still get the gist of how I'm using them - just ignore/delete them as they are not required.
 
 [Accompanying cheat sheet](http://www.webtempest.com/meteor-js-cheatsheet)
