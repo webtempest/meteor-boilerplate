@@ -1,3 +1,4 @@
 $enable-flex: true;
-@import "client/lib/bootstrap/scss/_bootstrap.scss";
+@import "_variables";
+@import "client/lib/bootstrap/scss/_bootstrap";
 
