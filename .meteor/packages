@@ -25,9 +25,7 @@ service-configuration
 arillo:flow-router-helpers
 kadira:flow-router
 kadira:blaze-layout
-meteorhacks:npm
-npm-container
 mplatts:event-emitter2
 mplatts:meteor-loader
-mplatts:accounts-ui-bootstrap-4
+webtempest:accounts-ui-bootstrap-4
 webtempest:flow-wrapper

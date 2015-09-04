@@ -48,20 +48,16 @@ logging@1.0.7
 matb33:collection-hooks@0.7.13
 meteor@1.1.6
 meteor-platform@1.2.2
-meteorhacks:async@1.0.0
-meteorhacks:npm@1.4.0
 meteortoys:toykit@0.8.7
 minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
 momentjs:moment@2.10.6
 mongo@1.1.0
-mplatts:accounts-ui-bootstrap-4@1.2.79
 mplatts:event-emitter2@0.0.1
 mplatts:meteor-loader@0.0.1
 msavin:mongol@1.1.5
 npm-bcrypt@0.7.8_2
-npm-container@1.1.0
 oauth@1.1.4
 oauth2@1.1.3
 observe-sequence@1.0.6
@@ -87,5 +83,6 @@ underscore@1.0.3
 url@1.0.4
 webapp@1.2.0
 webapp-hashing@1.0.3
+webtempest:accounts-ui-bootstrap-4@1.3.0
 webtempest:flow-wrapper@0.1.0
 zimme:active-route@2.3.2
